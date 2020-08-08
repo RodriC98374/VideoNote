@@ -1,16 +1,17 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const NavItems = () => (
     <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
             <li className="nav-item p-2">
-                                <a className="nav-link" href="./index.html">Inicio</a>
+                <NavLink className="nav-link" exact to="/" activeClassName="activo">Inicio</NavLink>
             </li>
             <li className="nav-item p-2">
-                <a className="nav-link" href="./materias.html">Materias</a>
+                <NavLink className="nav-link" to="/materias">Materias</NavLink>
             </li>
             <li className="nav-item p-2">
-                <a className="nav-link" href="#clientes">Acerca De</a>
+                <NavLink className="nav-link" to="/Acerca De">Acerca De</NavLink>
             </li>
             <li className="nav-item p-2">
             <form className="form-inline">

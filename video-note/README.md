@@ -8,6 +8,8 @@ VideoNote es una pagina web donde podras encontrar una gran variedad de videos e
 ## Tecnologia a usar
 - Node.js
 - React.js
+- Glider.js
+- Bootstrap
 - Visual Studio Code
 - Navegador (Firefox)
 
