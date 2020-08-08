@@ -10,7 +10,8 @@ const CoursesGrid = ({courses}) => (
                         id={c.id}
                         name={c.name}
                         images={c.images}
-                        views={c.views}    
+                        views={c.views} 
+                        course={c.course}   
                     />
                 ))
             }

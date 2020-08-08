@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideBarItems = (nameItem, n) => (
+const SideBarItems = ({nameItem, n}) => (
     <li class="nav-item pl-5">
         <div class="custom-control custom-checkbox mt-2">
             <input type="radio" id={`customRadio${n}`}name="customRadio" class="custom-control-input"/>
