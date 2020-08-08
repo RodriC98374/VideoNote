@@ -28,7 +28,6 @@ class Home extends Component{
                 <Welcome />
                 <Carousel videos={videos}/>
             </>
-
         )
     }
 }

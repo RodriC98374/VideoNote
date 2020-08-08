@@ -1,13 +1,14 @@
 import React from 'react'
-import VideoCard from '../Molecules/VideoCard'
+import MediaItem from '../Molecules/MediaItem'
+
 
 const MediaCarousel = ({media}) => (
     <div className="no-gutters">
         {
             media.map(m => (
-                <VideoCard 
-                    key={m.id}
+                <MediaItem 
                     id={m.id}
+                    name={m.name}
                     image={m.image}
                     title={m.title}
                 />

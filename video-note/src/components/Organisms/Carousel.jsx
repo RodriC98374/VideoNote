@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../scripts/carouselFuntions'
 import MediaCarousel from './MediaCarousel'
 
 const Carousel = ({videos}) => (

@@ -241,7 +241,10 @@ a.bg-success:hover {
 .course-card {
   box-shadow: 5px 5px 5px rgba(204, 204, 204, 0.25);
 }
-
+.video-embeded{
+  width: 90%;
+  height: 552px;
+}
 .u-flowText {
   font-size: 1.25rem;
 }
