@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Frame from '../Atoms/Frame'
 import Axios from 'axios'
+import Suggestions from '../Organisms/Suggestions'
 
 const Video = ({ match }) => {
     const [vid, setState] = useState( {} )
@@ -12,6 +13,7 @@ const Video = ({ match }) => {
         <section class="conteiner-fluid main-content-page col py-5 d-flex">
             <div class="play-video col col-lg-12 d-flex p-0">
                 <Frame url={vid.url} tittle={vid.tittle}/>
+                <Suggestions />
             </div>
         </section>
     )

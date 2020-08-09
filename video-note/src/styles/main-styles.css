@@ -1,6 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css");
 @import url("https://kit.fontawesome.com/a076d05399.js");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import './footer.css';
 /* ********** Custom Properties ********** */
 :root {
@@ -162,7 +161,6 @@ a.bg-success:hover {
 .card-text a:hover {
   color: var(--action-modal-color);
 }
-
 .form-control {
   border-color: var(--second-color);
 }
@@ -244,6 +242,9 @@ a.bg-success:hover {
 .video-embeded{
   width: 90%;
   height: 552px;
+}
+.suggestion-card{
+  max-width: 540px;
 }
 .u-flowText {
   font-size: 1.25rem;

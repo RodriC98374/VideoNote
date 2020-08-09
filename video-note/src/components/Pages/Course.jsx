@@ -12,10 +12,10 @@ const Course = ({ match }) => {
     const inCourse = media.filter(e => e.course === match.params.course )
     console.log(inCourse)
     return(
-        <>
+        <section class="conteiner main-content-page col py-5 d-flex">
             <SideBar />
             <VideoCoursesGrid inCourse={inCourse}/>
-        </>
+        </section>
     )
 }
 

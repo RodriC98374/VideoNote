@@ -7,6 +7,7 @@ import Courses from './Pages/Courses';
 import Course from './Pages/Course';
 import Video from './Pages/Video';
 import Footer from './Organisms/Footer';
+import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
       <NavBar />
       <Switch>
         <Route path='/' exact component={ Home}/>
-        <Route path='/video' component={ Video } />
+        <Route path='/materias/:name/:id' component={ Video } />
         <Route path='/materias/:course'component={ Course } /> 
         <Route path='/materias' component={ Courses } />
-        
+        <Route path='/Acerca_De' component={ AboutUs } />
         <Route component={() => (
                   <div>
                       <h1>Error 404</h1>

@@ -7,7 +7,7 @@ const VideoCoursesGrid = ({inCourse = []}) => (
             inCourse.map( iC => (
                 <VideoCourses 
                     id={iC.id}
-                    tittle={iC.tittle}
+                    title={iC.title}
                     course={iC.course}
                     image={iC.image}
                 />

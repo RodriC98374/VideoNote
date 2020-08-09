@@ -6,7 +6,6 @@ const MediaItem = ({id, name, image, title}) => (
         <Link to={`materias/${name}/${id}`}>
             <img src={image} class="card img-fluid" alt={title}/>
         </Link>
-
         <p class="card-text">{title}</p>
     </div>
 )

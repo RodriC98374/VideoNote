@@ -11,7 +11,7 @@ const NavItems = () => (
                 <NavLink className="nav-link" to="/materias">Materias</NavLink>
             </li>
             <li className="nav-item p-2">
-                <NavLink className="nav-link" to="/Acerca De">Acerca De</NavLink>
+                <NavLink className="nav-link" to="/Acerca_De">Acerca De</NavLink>
             </li>
             <li className="nav-item p-2">
             <form className="form-inline">
